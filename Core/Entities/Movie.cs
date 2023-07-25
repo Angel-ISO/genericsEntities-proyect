@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 
 namespace Core.Entities;
-public class Movie
+public class Movie : BaseEntityA
 {
     public string? Tittle { get; set; }
     public int Year { get; set; }

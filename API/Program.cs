@@ -1,9 +1,13 @@
 using API.Extensions;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
+using AspNetCoreRateLimit;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.ConfigureCors();
+builder.Services.ConfigureRateLimiting();
+builder.Services.ConfigureApiVersioning();
+
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -27,7 +31,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+
+
 app.UseCors("CorsPolicy");
+
+app.UseIpRateLimiting();
 
 app.UseHttpsRedirection();
 
