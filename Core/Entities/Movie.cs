@@ -10,7 +10,5 @@ public class Movie : BaseEntityA
     public Director ? Director { get; set; }
     public int Id_Genre { get; set; }
      public Genre ? Genre { get; set; }
-
-
 }
 
