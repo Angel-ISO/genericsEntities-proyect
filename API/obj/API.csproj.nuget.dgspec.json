@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/angelgabriel/Documentos/genericsEntities-proyect/API/API.csproj": {}
+    "/home/apolm01-007/Documents/genericsEntities-proyect/API/API.csproj": {}
   },
   "projects": {
-    "/home/angelgabriel/Documentos/genericsEntities-proyect/API/API.csproj": {
+    "/home/apolm01-007/Documents/genericsEntities-proyect/API/API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/angelgabriel/Documentos/genericsEntities-proyect/API/API.csproj",
+        "projectUniqueName": "/home/apolm01-007/Documents/genericsEntities-proyect/API/API.csproj",
         "projectName": "API",
-        "projectPath": "/home/angelgabriel/Documentos/genericsEntities-proyect/API/API.csproj",
-        "packagesPath": "/home/angelgabriel/.nuget/packages/",
-        "outputPath": "/home/angelgabriel/Documentos/genericsEntities-proyect/API/obj/",
+        "projectPath": "/home/apolm01-007/Documents/genericsEntities-proyect/API/API.csproj",
+        "packagesPath": "/home/apolm01-007/.nuget/packages/",
+        "outputPath": "/home/apolm01-007/Documents/genericsEntities-proyect/API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/angelgabriel/.nuget/NuGet/NuGet.Config"
+          "/home/apolm01-007/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/home/angelgabriel/Documentos/genericsEntities-proyect/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/home/angelgabriel/Documentos/genericsEntities-proyect/Infrastructure/Infrastructure.csproj"
+              "/home/apolm01-007/Documents/genericsEntities-proyect/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/home/apolm01-007/Documents/genericsEntities-proyect/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -100,17 +100,17 @@
         }
       }
     },
-    "/home/angelgabriel/Documentos/genericsEntities-proyect/Core/Core.csproj": {
+    "/home/apolm01-007/Documents/genericsEntities-proyect/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/angelgabriel/Documentos/genericsEntities-proyect/Core/Core.csproj",
+        "projectUniqueName": "/home/apolm01-007/Documents/genericsEntities-proyect/Core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "/home/angelgabriel/Documentos/genericsEntities-proyect/Core/Core.csproj",
-        "packagesPath": "/home/angelgabriel/.nuget/packages/",
-        "outputPath": "/home/angelgabriel/Documentos/genericsEntities-proyect/Core/obj/",
+        "projectPath": "/home/apolm01-007/Documents/genericsEntities-proyect/Core/Core.csproj",
+        "packagesPath": "/home/apolm01-007/.nuget/packages/",
+        "outputPath": "/home/apolm01-007/Documents/genericsEntities-proyect/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/angelgabriel/.nuget/NuGet/NuGet.Config"
+          "/home/apolm01-007/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -153,17 +153,17 @@
         }
       }
     },
-    "/home/angelgabriel/Documentos/genericsEntities-proyect/Infrastructure/Infrastructure.csproj": {
+    "/home/apolm01-007/Documents/genericsEntities-proyect/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/angelgabriel/Documentos/genericsEntities-proyect/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/home/apolm01-007/Documents/genericsEntities-proyect/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/home/angelgabriel/Documentos/genericsEntities-proyect/Infrastructure/Infrastructure.csproj",
-        "packagesPath": "/home/angelgabriel/.nuget/packages/",
-        "outputPath": "/home/angelgabriel/Documentos/genericsEntities-proyect/Infrastructure/obj/",
+        "projectPath": "/home/apolm01-007/Documents/genericsEntities-proyect/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/home/apolm01-007/.nuget/packages/",
+        "outputPath": "/home/apolm01-007/Documents/genericsEntities-proyect/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/angelgabriel/.nuget/NuGet/NuGet.Config"
+          "/home/apolm01-007/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -175,8 +175,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/home/angelgabriel/Documentos/genericsEntities-proyect/Core/Core.csproj": {
-                "projectPath": "/home/angelgabriel/Documentos/genericsEntities-proyect/Core/Core.csproj"
+              "/home/apolm01-007/Documents/genericsEntities-proyect/Core/Core.csproj": {
+                "projectPath": "/home/apolm01-007/Documents/genericsEntities-proyect/Core/Core.csproj"
               }
             }
           }

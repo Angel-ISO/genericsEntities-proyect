@@ -14,7 +14,7 @@ builder.Services.AddControllers();
 
 builder.Services.AddDbContext<MoviesContext>(options =>
 {
-    string ? connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+    string  connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
 });
 

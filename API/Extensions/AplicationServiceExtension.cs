@@ -1,7 +1,11 @@
 using AspNetCoreRateLimit;
+using CoreInterfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.Extensions.Options;
+using Infrastructure.Repositories;
+using Core.Interfaces;
+using Infrastructure.UnitOfWork;
 
 namespace API.Extensions;
 public static  class AplicationServiceExtension
@@ -13,6 +17,14 @@ public static  class AplicationServiceExtension
       .AllowAnyMethod()
       .AllowAnyHeader());
   });
+     public static void AddAplicationService(this IServiceCollection services)
+     {
+        // services.AddScoped<IMoviesInterface, MovieRepository>();
+        // services.AddScoped<IGenreInterface, GenreRepository>();
+        // services.AddScoped<IDirectorInterface, DirectorRepository>();
+         services.AddScoped<IUnitOfWork, UnitOfWork>();
+     }
+
 
    public static void ConfigureRateLimiting(this IServiceCollection services)
    {
