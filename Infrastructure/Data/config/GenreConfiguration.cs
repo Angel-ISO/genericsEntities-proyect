@@ -8,7 +8,7 @@ public class GenreConfiguration : IEntityTypeConfiguration<Genre>
     public void Configure(EntityTypeBuilder<Genre> builder)
     {
         builder.ToTable("Genero");
-        builder.Property(p => p.id).IsRequired();
+        builder.Property(p => p.Id).IsRequired();
         builder.Property(p => p.Name).IsRequired().HasMaxLength(50);
     }
 

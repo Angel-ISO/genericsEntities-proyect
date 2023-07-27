@@ -1,4 +1,4 @@
-using Core.Entitities;
+using Core.Entities;
 using Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -25,9 +25,7 @@ public class MovieController : BaseApiController
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
       public async Task<IActionResult> Get(int id)
     {
-        var byiduser = await _context.Usuarios.FindAsync(id);
+        var byiduser = await _context.Movies.FindAsync(id);
         return Ok(byiduser);
     }
 }
-
-   
