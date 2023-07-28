@@ -100,3 +100,5 @@
 /home/apolm01-007/Documents/genericsEntities-proyect/API/obj/Debug/net7.0/API.pdb
 /home/apolm01-007/Documents/genericsEntities-proyect/API/obj/Debug/net7.0/API.genruntimeconfig.cache
 /home/apolm01-007/Documents/genericsEntities-proyect/API/obj/Debug/net7.0/ref/API.dll
+/home/angelgabriel/Documentos/genericsEntities-proyect/API/bin/Debug/net7.0/AutoMapper.dll
+/home/angelgabriel/Documentos/genericsEntities-proyect/API/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -24,6 +24,7 @@ public static  class AplicationServiceExtension
         // services.AddScoped<IDirectorInterface, DirectorRepository>();
          services.AddScoped<IUnitOfWork, UnitOfWork>();
      }
+     
 
 
    public static void ConfigureRateLimiting(this IServiceCollection services)
