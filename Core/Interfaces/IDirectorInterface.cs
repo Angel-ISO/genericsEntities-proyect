@@ -6,7 +6,6 @@ namespace Core.Interfaces;
 public interface IDirectorInterface
 {
     
-
 Task<Director> GetByIdAsync(int id);
 Task <IEnumerable<Director>> GetAllAsync();
 IEnumerable<Director>  Find(Expression<Func<Director, bool>> expression);

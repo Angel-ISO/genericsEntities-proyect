@@ -1,7 +1,6 @@
 using System.Linq.Expressions;
 using Core.Entities;
 using Core.Interfaces;
-using CoreInterfaces;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 

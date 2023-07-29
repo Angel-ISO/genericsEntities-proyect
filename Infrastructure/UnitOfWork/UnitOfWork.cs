@@ -1,20 +1,25 @@
 using Core.Entities;
 using Core.Interfaces;
-using CoreInterfaces;
 using Infrastructure.Data;
 using Infrastructure.Repositories;
 
 namespace Infrastructure.UnitOfWork;
-public class UnitOfWork : IUnitOfWork,IDisposable
+public class UnitOfWork : IUnitOfWork, IDisposable
 {    
-    private readonly MoviesContext _context;
+
+private readonly MoviesContext _context;
+
     private MovieRepository? _movie;
     private DirectorRepository? _director;
     private GenreRepository? _genre;
 
 
+
+ public UnitOfWork(MoviesContext context)
+    {
+        _context = context;
+    }
     
-    public UnitOfWork(MoviesContext context)=>_context = context;
 
 
  public IMoviesInterface Movies{
@@ -22,7 +27,7 @@ public class UnitOfWork : IUnitOfWork,IDisposable
             if(_movie is not null){
                 return _movie;
             }
-            return _movie = new(_context);
+            return _movie = new MovieRepository(_context);
         }
     }
 
@@ -31,7 +36,7 @@ public class UnitOfWork : IUnitOfWork,IDisposable
             if(_director is not null){
                 return _director;
             }
-            return _director = new(_context);
+            return _director = new DirectorRepository(_context);
         }
     }
 
@@ -40,7 +45,7 @@ public class UnitOfWork : IUnitOfWork,IDisposable
             if(_genre is not null){
                 return _genre;
             }
-            return _genre = new(_context);
+            return _genre = new GenreRepository(_context);
         }
     }
 

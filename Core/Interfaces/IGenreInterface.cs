@@ -6,6 +6,7 @@ namespace Core.Interfaces;
 
 public interface IGenreInterface
 {
+    
 Task<Genre> GetByIdAsync(int id);
 Task <IEnumerable<Genre>> GetAllAsync();
 IEnumerable<Genre>  Find(Expression<Func<Genre, bool>> expression);

@@ -1,7 +1,7 @@
 using System.Linq.Expressions;
 using Core.Entities;
 
-namespace CoreInterfaces;
+namespace Core.Interfaces;
 public interface IMoviesInterface
 {
     Task<Movie> GetByIdAsync(int id);

@@ -1,6 +1,3 @@
-using Core.Entities;
-using CoreInterfaces;
-
 namespace Core.Interfaces;
 public interface IUnitOfWork
 {

@@ -1,6 +1,6 @@
 using System.Linq.Expressions;
 using Core.Entities;
-using CoreInterfaces;
+using Core.Interfaces;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -24,5 +24,5 @@ public class MovieRepository : IMoviesInterface
 
     public void RemoveRange(IEnumerable<Movie> entities)=>_context.Set<Movie>().RemoveRange(entities);
 
-    public void Update(Movie entity)=>_context.Set<Movie>().Update(entity);
+    public void Update(Movie entity)=> _context.Set<Movie>().Update(entity);
 }
