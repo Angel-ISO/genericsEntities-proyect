@@ -1,7 +1,7 @@
 
 #    -------------- 🎥api cine📽️ ---------------
 
-Esta api fue desarrollada con el simple hevho de ejemplificar buenas practicas a la hora de codificar un proyecto de gran embergadura hablando de backend.
+Esta api fue desarrollada con el simple hecho de ejemplificar buenas practicas a la hora de codificar un proyecto de gran embergadura hablando de backend.
 
 
 #  acompañamiento para ejecucion
