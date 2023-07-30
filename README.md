@@ -66,7 +66,7 @@ Una vez iniciado el servidor se puede testear la api con los 4 metodos (get, pos
 luego de todo lo anterior visto es libre de ya sea consumir la api desde otro proyecto o realizar peticiones como la siguiente
 
 
-![peticion muestra](/images/respuestaservicio.png)
+![peticion muestra](/images/apipeticion.png)
 
 ## Tecnologias usadas en el  Stack
 
